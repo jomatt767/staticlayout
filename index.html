@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US" class style="display:block;">
+
+
+<head>
+
+<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>static layout</title>
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font: inherit;
+      margin: 0;
+    }
+
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      width: 100%;
+      left: 0;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content .header {
+      background: red;
+      padding: 16px;
+      color: white;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+
+
+
+  <div class="navbar"><a href="#home">Home</a><a href="#news">News</a>
+    <div class="dropdown">
+
+
+
+      <button class="dropbtn">Dropdown <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <div class="header">
+          <h2>Mega Menu</h2>
+        </div>
+        <div class="row">
+          <div class="column">
+            <h3>Category 1</h3><a href="#">Link 1</a><a href="#">Link 2</a><a href="#">Link 3</a>
+          </div>
+          <div class="column">
+            <h3>Category 2</h3><a href="#">Link 1</a><a href="#">Link 2</a><a href="#">Link 3</a>
+          </div>
+          <div class="column">
+            <h3>Category 3</h3><a href="#">Link 1</a><a href="#">Link 2</a><a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div><video autoplay muted loop id="eleven">
+    <source
+      src="https://2sv9c447h3av25drzd8k9m5j-wpengine.netdna-ssl.com/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.webm"
+      type="video/mp4">
+    <div class="content"></div>
+  </video>
+  <h1 class="pagetitle">ATTEND A FREE INTRO COURSE !</h1><a
+    href="https://www.mycomputercareer.edu/locations/indianapolis-in/" target="_blank">learn more</a>
+  <div>
+    <h1>course information</h1>
+  </div>
+
+  </head>
+
+
+
+</body>
+
+</html>

@@ -32,6 +32,7 @@ a {
   }
 
   .dropdown .dropbtn {
+    margin: 0;
     font-size: 16px;
     border: none;
     outline: none;
@@ -39,7 +40,7 @@ a {
     padding: 14px 16px;
     background-color: inherit;
     font: inherit;
-    margin: 0;
+    
   }
 
   .navbar a:hover,
@@ -68,6 +69,7 @@ a {
   }
 
   .section{
+    margin:0;
     display: block;
     position: absolute;
     background-color: black;
@@ -75,6 +77,7 @@ a {
 
   }
 .section{
+  margin: 0;
   background-color: grey;
 }
 
@@ -86,6 +89,7 @@ a {
     justify-content: center;
   }
 .section{
+  margin:0;
   display:block;
   height: 200px;
   width: 100%;
@@ -93,16 +97,50 @@ a {
 }
 
 .fwh-slide{
+  align-content: center;
+  display: flex;
   margin: 0;
-  background-color:lightgrey;
-  box-sizing: border-box;
+  background-color:#efefef;
+  box-sizing: content-box;
   height:500px;
   text-decoration-color: rgb(7, 7, 233);
-  font-weight: 700;
-  font-family: overpass;
-  line-height: 1.2;
+  text-size-adjust: 50px;
+  font-weight: 1000;
+  font-family: sans-serif;
+  line-height: 2;
   text-align-last: center;
-  }
+  flex-direction: row;
+  justify-content: center; 
+}
+
+.content{
+
+  margin: 0;
+  background-color:#fff;
+  font-size: 12px;
+ text-size-adjust:auto; 
+ text-rendering: auto;
+ text-overflow: inherit
+  height: 215px;
+  width: 215px;
+  padding: 50px;
+  margin: 20px;
+  
+}
+.p{
+  margin:0;
+  font-size: 30px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(248, 245, 245);
+  text-align: center;
+}
+
+
+
+
+
+
  
   
  

@@ -17,7 +17,19 @@ ul {
   justify-content:flex-end ;
   
 }
-a {
+
+#efa{
+  float:left;
+  color:white;
+  text-decoration-line: none;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 20px;
+  
+  
+  
+}
+.navlist {
   float:right;
   font-size: 16px;
   color: white;
@@ -97,9 +109,9 @@ a {
 }
 
 .fwh-slide{
+  margin: 0;
   align-content: center;
   display: flex;
-  margin: 0;
   background-color:#efefef;
   box-sizing: content-box;
   height:500px;
@@ -120,23 +132,68 @@ a {
   font-size: 12px;
  text-size-adjust:auto; 
  text-rendering: auto;
- text-overflow: inherit
-  height: 215px;
+ text-overflow: inherit;
+  height: 270px;
   width: 215px;
   padding: 50px;
   margin: 20px;
+  }
+.information{
+
+  margin-top: -45px;
+  margin-bottom: -50px;
+  font-size: 42px;
+  background-color: #efefef;
+  text-align: center;
+  color:#348db9;
   
 }
-.p{
-  margin:0;
-  font-size: 30px;
-  flex-direction: row;
-  justify-content: center;
-  background-color: rgb(248, 245, 245);
-  text-align: center;
+
+.banner {
+  background-color: red;
+  color: white;
+  width: 315px;
+  margin-left: -50px;
+  height: 50px;
+  padding-top: 5px;
+  margin-top: 60px;
+}
+.banner1 {
+  background-color: red;
+  color: white;
+  width: 315px;
+  margin-left: -50px;
+  height: 50px;
+  padding-top: 5px;
+  margin-top: 60px;
 }
 
 
+.banner3 {
+  background-color:red;
+  color:white;
+  width:315px;
+  margin-left: -50px;
+  height:50px;
+  padding-top: 9px;
+}
+
+.overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 5;
+  font-size: 30px;
+  width: 100%;
+  background-color: #000;
+  color:red;
+
+}
+.image{
+  position:left;
+  width:1px;
+  height:1px;
+}
 
 
 
